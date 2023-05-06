@@ -1,8 +1,8 @@
 pragma solidity ^0.4.18;
 
 contract WBESC {
-    string public name     = "Wrapped BESC";
-    string public symbol   = "WBESC";
+    string public name     = "Wrapped BBC";
+    string public symbol   = "WBBC";
     uint8  public decimals = 18;
 
     event  Approval(address indexed src, address indexed guy, uint wad);
