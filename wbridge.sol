@@ -181,7 +181,7 @@ contract Ownable is Context {
     }
 }
 
-contract AlveyBridge is Context, Ownable {
+contract ButaneBridge is Context, Ownable {
 
     using Address for address;
 
