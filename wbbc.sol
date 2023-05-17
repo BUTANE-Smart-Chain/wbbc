@@ -1,9 +1,9 @@
 /*
-    Website: https://treschain.com
-    Contract Name: Tres Wrapped Token
-    Instagram: https://www.instagram.com/treslecheschain
-    Twitter: https://twitter.com/treslecheschain
-    Telegram: https://t.me/TresChain
+    Website: https://butane.tech
+    Contract Name: BUTANE Wrapped Token
+    Discord: https://discord.gg/zk4t92b9MX
+    Twitter: https://twitter.com/Butane_Network
+    Telegram: https://t.me/butanechain
 
 */
 
@@ -11,8 +11,8 @@
 pragma solidity =0.8.16;
 
 contract WTRESV4 {
-  string private constant _NAME     = "Wrapped TRES";
-  string private constant _SYMBOL   = "WTRES";
+  string private constant _NAME     = "Wrapped BBC";
+  string private constant _SYMBOL   = "WBBC";
   uint8  private constant _DECIMALS = 18;
   uint256 private _totalSupply = address(this).balance;
   mapping (address => uint256) public  balanceOf;
