@@ -10,7 +10,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.8.16;
 
-contract WTRESV4 {
+contract WBBC {
   string private constant _NAME     = "Wrapped BBC";
   string private constant _SYMBOL   = "WBBC";
   uint8  private constant _DECIMALS = 18;
